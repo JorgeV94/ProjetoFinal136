@@ -14,7 +14,7 @@ describe('Pesquisas na pagina Show', () => {
             })
             it('Então visualizei a página de Sinopse verifiquei o titulo NCIS do lado esquerdo \n E é exibido no lado direito da página o titulo "Extra Details" \n E o subtitulo "Also known as:" ', () => {
                 cy.get('h1[class="show-for-medium"]')
-                    .should('have.text','NCIS') // div[class="callout generic-info-panel"] strong  Also known as: 
+                    .should('have.text','NCIS')
                 cy.get('#show [class="small-12 medium-4 cell"] h2')
                     .contains('Extra Details')
                 cy.get('div[class="callout generic-info-panel"] strong')

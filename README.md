@@ -49,7 +49,7 @@ baseUrl:'https://www.tvmaze.com/'
 
 Por padrão a linha abaixo já está descomentada e pronta para ser utilizada nos testes.
 
-baseUrl:'https://www.tvmaze.com/'
+baseUrl:'https://www.tvmaze.com'
 
 Se for rodar os testes de API leia o subtópico acima. 
 

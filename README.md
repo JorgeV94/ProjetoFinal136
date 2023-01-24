@@ -43,7 +43,7 @@ Ir no arquivo cypress.config.js e descomentar a seguinte linha:
 
 Obs: deve-se comentar a linha abaixo:
 
-baseUrl:'https://www.tvmaze.com/'
+baseUrl:'https://www.tvmaze.com'
 
 ### UI
 

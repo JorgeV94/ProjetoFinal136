@@ -1,0 +1,61 @@
+Cenários de pesquisa
+
+Página HOME
+
+1- Busca de uma série
+
+Dado que como visitante acessei a página HOME
+Quando inseri "The Librarians" no campo "pesquisa";--contexto
+E cliquei no botão "Search";
+E fui redirecionado para a página de resultado de pesquisa;
+E cliquei no título "The Librarians"; --contexto
+E fui redirecionado para a página de Sinopse do título;
+E visualizei a página de Sinopse;
+Então é exibido no lado direito da página o campo "Show Info" 
+E o campo "Network" com o texto/link "TNT"
+E o campo "Official site" com o texto/link "www.tntdrama.com"
+E o campo "Developed by" com o texto "John Rogers";
+
+2-Busca de uma pessoa
+
+Dado que como visitante acessei a página HOME
+Quando inseri "Meryl Streep" no campo "pesquisa";
+E cliquei no botão "Search" fui redirecionado para a página de resultado de pesquisa;
+Então é exibido no lado esquerdo o título "Meryl Streep"
+E no lado direito da página as "Person Info"
+E os campos "Gender,Age,Birthday,Born in" 
+E o campo Also known as com o texto "Mary Louise Streep"
+
+Página Shows
+
+
+1-Ver uma série na página SHOWS
+
+Dado que como visitante acessei a página SHOWS
+Visualizei a série "NCIS"
+E cliquei no link
+E fui redirecionado para a página de Sinopse do título;
+Então visualizei a página de Sinopse verifiquei o título NCIS do lado esquerdo;
+E é exibido no lado direito da página o título "Extra Details",
+E o subtitulo "Also known as:"
+E os textos na lista: "Navy NCIS", "NCIS: Investigações Criminais", "NCIS rikostutkijat", "Navy: investigación criminal", "Морська полiцiя";
+
+2-Utilizar filtros para procura de uma série
+
+Quando selecionei no campo Show Status o elemento "Running"
+E no campo Genre o elemento "Comedy" 
+E no campo Language o elemento "English"
+E no campo Country o elemento "United States" 
+E no campo Sort by o elemento "A to Z" 
+Então visualizo os resultados da pesquisa
+
+Página WebChannels
+
+1-Busca com filtros por canais de streaming
+
+Quando selecionei no campo Show Status o elemento "Running"
+E no campo Genre o elemento "Comedy"
+E no campo Language o elemento "English"
+E no campo Country o elemento "United States"
+E no campo Sort by o elemento "A to Z"
+Então visualizo os resultados da pesquisa;

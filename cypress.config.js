@@ -8,7 +8,7 @@ module.exports = defineConfig({
         pageLoadTimeout:10000,
 
         // baseUrl: 'https://api.tvmaze.com', // Descomentar para rodar os testes de API
-        baseUrl:'https://www.tvmaze.com/',
+        baseUrl:'https://www.tvmaze.com',
 
         // eslint-disable-next-line
         setupNodeEvents(on, config) {
